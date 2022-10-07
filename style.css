@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 232, 76);
+
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cep{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#iptCep{
+    margin: 20px;
+    height: 30px;
+    width: 100%;
+}
+
+button{
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(0deg, rgb(6, 131, 81) 0%, rgb(87, 168, 111) 100%);
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    border: none;
+}
+
+button:hover{
+    background: rgb(0, 255, 195);
+background: linear-gradient(0deg, rgb(115, 255, 0) 0%, rgb(2, 251, 77) 100%);
+}
+
+#endereco {
+    height: 150px;
+    margin: 20px;
+}
+
+p{
+    margin: 10px 10px ;
+    font-size: 30px;
+    font-weight: bold;
+
+}
